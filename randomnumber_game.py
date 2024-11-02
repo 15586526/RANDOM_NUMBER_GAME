@@ -1,15 +1,15 @@
 import random
-random_number=round(random.random()*50)
+rastgelesayı_olusturuyobusalak=round(random.random()*50)
 
-print(str(random_number)[0])    ##"str" İLE İLK KARAKTERİ "STRİNG"E ÇEVİRİYORUZ YANİ İLK KARAKTER GÖZÜKMÜCEK!!!!
+print(str(rastgelesayı_olusturuyobusalak)[0])   
       
-input_number =int(input("Enter a number between 0 and 50:"))
+numarayı_girlan =int(input("0 ile 50 arasında bir sayı gir bakma öyle:"))
 
-while random_number != input_number:
-    if input_number > random_number:
-        print("YOU ENTERED A LARGE NUMBER")
+while rastgelesayı_olusturuyobusalak != numarayı_girlan:
+    if numarayı_girlan > rastgelesayı_olusturuyobusalak:
+        print("Büyük sayı girdin bro")
     else:
-        print("YOU ENTERED A SMALL NUMBER")
-    input_number=int(input("Enter a number between 0 and 50:"))
-print("YOU ARE WON!")
+        print("Küçük sayı girdin bro")
+    numarayı_girlan=int(input("0 ile 50 arasında bir sayı gir bakma öyle:"))
+print("HADİ YİNE İYİSİN AMK KAZANDIN")
 
